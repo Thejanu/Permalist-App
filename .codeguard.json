@@ -1,0 +1,20 @@
+{
+  "allow": [
+    {
+      "path": ".env*",
+      "rule": "*"
+    },
+    {
+      "path": "**/.env*",
+      "rule": "*"
+    },
+    {
+      "path": "**/appsettings*.json",
+      "rule": "*"
+    },
+    {
+      "path": "**/*.json",
+      "rule": "connection-string"
+    }
+  ]
+}
